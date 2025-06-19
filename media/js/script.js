@@ -77,7 +77,7 @@ document.querySelector('#formSubmit').addEventListener('click', (e) => {
   const formConsent = document.querySelector('#consent')
   console.log(formName.value, formEmail.value, formConsent.checked, formMessage.value)
   if (formConsent.value !== '' && formName.value !== '' && formEmail.value !== '', formConsent.checked !== false) {
-    window.location.href = './404.html'
+    window.location.href = './thank-u-msg.html'
   }
 });
 // // 
